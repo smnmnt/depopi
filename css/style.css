@@ -1346,6 +1346,72 @@ img {
   margin-bottom: 0;
 }
 
+.results {
+  background: url("../img/webp/resultwave.webp") no-repeat left bottom;
+}
+
+.results__row {
+  border-top: 1px solid #eaf1f7;
+  padding-top: 124px;
+  padding-bottom: 111px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.results__title {
+  font-size: 36px;
+  max-width: 270px;
+  width: 100%;
+  margin-bottom: 29px;
+}
+
+.results__title span {
+  font-weight: bold;
+}
+
+.results__description {
+  max-width: 260px;
+  width: 100%;
+  line-height: 20px;
+}
+
+.results__columns__examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 648px;
+  width: 100%;
+}
+
+.results__example {
+  max-width: 262px;
+  width: 100%;
+}
+
+.results__example__title {
+  margin-top: 44px;
+  margin-bottom: 31px;
+  font-size: 23px;
+}
+
+.results__example__description {
+  max-width: 253px;
+  width: 100%;
+  line-height: 20px;
+}
+
+.results__example__description__thiner {
+  max-width: 221px;
+  width: 100%;
+}
+
 .cashback {
   background: #EAF1F7;
   background-image: url("../img/webp/roboheadcashback.webp");
