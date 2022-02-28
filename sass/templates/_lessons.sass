@@ -1,15 +1,19 @@
 .lessons
     background: linear-gradient(0.0deg, #03256c -114%, #061826 215%) 
     color: $light
-    padding-top: 111px
-    padding-bottom: 120px
+    &__inside
+        background-image: url('../img/blu.png')
+        background-repeat: no-repeat
+        background-position: left bottom
     &__title
+        margin-top: 111px
         font-size: 36px
         color: $light
     &__buttons
         margin-top: 106px
         display: flex
         justify-content: center
+        margin-bottom: 120px
     &__button
         padding: 16px 52px
         &__sec
@@ -73,9 +77,9 @@
     &__img
         position: relative
     &__txt
-        max-width: 330px
+        max-width: 372px
         width: 100%
-        font-size: 16px
+        font-size: 18px
         line-height: 24px
         font-weight: 300
         color: #68799a
@@ -86,7 +90,7 @@
         font-weight: bold
 .swipe
     &-first
-        top: 635px
+        top: 668px
         left: 0
         background: url('../img/webp/arro.webp') 
         opacity: 0.3
@@ -98,9 +102,16 @@
         &:hover
             opacity: 1
     &-second
-        top: 635px
-        right: 2px
+        top: 668px
+        left: 1088px
+        background: url('../img/webp/arro.webp') 
+        opacity: 0.3
+        &:hover
+            opacity: 1
                 
-
+.swiper
+    &__number
+        display: flex
+        &-inside
 
     // url(../img/webp/wave-blu.webp) bottom right no-repeat

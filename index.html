@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algotrading</title>
+    <link rel="shortcut icon" href="./img/svg/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +31,6 @@
             </div>
         </div>
     </header>
-    <!-- это хедер закончился -->
     <main>
         <section class="section hero">
             <div class="container">
@@ -46,7 +46,6 @@
                 </div>
             </div>
         </section>
-        <!-- здесь хиро все больше нету -->
         <section class="section info">
             <div class="container info_div">
                 <strong class="title strong strong__title">Почему робот?</strong>
@@ -69,7 +68,6 @@
                 </div>
             </div>
         </section>
-        <!-- конец секции инфо -->
         <section class="section make">
             <div class="container">
                 <div class="make__title">
@@ -92,12 +90,12 @@
                     <!-- /.col -->
                     <div class="col col__calc">
                         <div class="make__calc-data">
-                            <input type="number" class="make__calc-data__input">
+                            <input type="number" class="input make__calc-data__input">
                             <label class="make__calc-data__text">Количество инструментов,<br> по которым Вы торгуете</label>
                         </div>
                         <!-- /.make__calc-data -->
                         <div class="make__calc-data no-border">
-                            <input type="number" class="make__calc-data__input ">
+                            <input type="number" class="input make__calc-data__input ">
                             <label class="make__calc-data__text">Количество инструментов Вашего брокера</label>
                         </div>
                         <!-- /.make__calc-data -->
@@ -105,12 +103,12 @@
                     <!-- /.col -->
                     <div class="col col__calc">
                         <div class="make__calc-data make__calc-data__smaller">
-                            <input type="number" class="make__calc-data__input">
+                            <input type="number" class="input make__calc-data__input">
                             <label class="make__calc-data__text">Средняя месячная прибыль (%)</label>
                         </div>
                         <!-- /.make__calc-data -->
                         <div class="make__calc-data make__calc-data__smaller no-border">
-                            <input type="number" class="make__calc-data__input">
+                            <input type="number" class="input make__calc-data__input">
                             <label class="make__calc-data__text">Сумма депозита ($)</label>
                         </div>
                         <!-- /.make__calc-data -->
@@ -123,8 +121,7 @@
                 </div>
                 <!-- /.make-button -->
                 </div>
-            </section>           
-        <!-- потом -->
+            </section>          
         <section class="section learn">
             <h2 class="title learn__title">Обучитесь алгоритмической торговле  и уже <span class="span">через 30 дней</span> создайте своего эффективного торгового робота!</h2>
             <button class="button learn__button button__secondary">начать обучение</button>
@@ -132,10 +129,11 @@
         
         <section class="section profit">
             <h2 class="title profit__title"><span class="span--bold">Какие выгоды</span> я получу <br> от создания своего робота?</h2>
+           
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper swiper-no-swiping">
                   <!-- Slides -->
                   <div class="swiper-slide">
                       <div class="profit__slider-inside">
@@ -161,8 +159,8 @@
                   ...
                 </div>
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev swiper-five"></div>
+                <div class="swiper-button-next swiper-six"></div>
             </div>
         </section>
         <section class="section stages">
@@ -203,7 +201,7 @@
         </section>
         
         <section class="section training">
-            <h2 class="title training__title">Формы обучения</h2>
+            <h2 class="title training__title">Формат обучения</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-50 training__card training__card-graph">
@@ -270,81 +268,718 @@
         </section>
 
         <section class="section lessons">
-           <div class="container">
-               
-                <!-- Slider main container -->
-            <div class="swiper">
-                
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide">
-                      <h2 class="title lessons__title span--bold">Урок 1</h2>
-                      <div class="row">
-                          <div class="col-50 study">
-                              <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
-                                <ol class="study__ol" type="A">
-                                    <li class="study__li">Что такое алготрейдинг</li>
-                                    <li class="study__li">Основные плюсы торговых роботов</li>
-                                    <li class="study__li">Основные минусы торговых роботов</li>
-                                    <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
-                                    
-                                </ol>
-                                <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
-                          </div>
-                          <div class="col-50">
-                            <div class="homework">
-                                <h3 class="title homework__title span--bold">Домашнее задание</h3>
-                                <ol class="homework__ol" type="A">
-                                    <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
-                                </ol>
-                            </div>
-                            <div class="gift">
-                                <h3 class="title gift__title">Бонус</h3>
-                                <div class="giftwithtxt">
-                                    <img src="img/webp/gift.webp" alt="" class="img gift__img">
-                                    <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                <div class="lessons__inside">
+                    <div class="container">
+                        <!-- <div class="swiper ">
+                           
+                            <div class="swiper-wrapper swiper-no-swiping">
+                            
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number"> 
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside active">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
                                 </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number">
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside active">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number">
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside active">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                 <div class="swiper__number">
+                                     <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside active">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>                                       
+                              </div> 
+                              <div class="swiper-slide">
+                               <div class="swiper__number">
+                                   <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside active">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number">
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside active">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number">
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside active">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number">
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside active">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                               <div class="swiper__number">
+                                   <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside active">9</p>
+                                    <p class="swiper__number-inside ">10</p>
+                                </div>
+                              </div>
+                              <div class="swiper-slide"> 
+                                <div class="swiper__number">
+                                    <p class="swiper__number-inside">Номер урока</p>
+                                    <p class="swiper__number-inside ">1</p>
+                                    <p class="swiper__number-inside ">2</p>
+                                    <p class="swiper__number-inside ">3</p>
+                                    <p class="swiper__number-inside ">4</p>
+                                    <p class="swiper__number-inside ">5</p>
+                                    <p class="swiper__number-inside ">6</p>
+                                    <p class="swiper__number-inside ">7</p>
+                                    <p class="swiper__number-inside ">8</p>
+                                    <p class="swiper__number-inside ">9</p>
+                                    <p class="swiper__number-inside active">10</p>
+                                </div>
+                              </div>    
                             </div>
-                          </div>
-                      </div>
-                      <div class="lessons__buttons">
-                        <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
-                        <button class="button lessons__button button__primary">Начать обучение</button>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-
-                  </div>
-                  <div class="swiper-slide">
-
-                  </div>
-                  
-                </div>
+                        </div> -->
+                            <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper swiper-no-swiping">
             
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev swipe-first"></div>
-                <div class="swiper-button-next swipe-second"></div>
-            </div>
-           </div>
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                  <h2 class="title lessons__title span--bold">Урок 1</h2>
+                                  <div class="row">
+                                      <div class="col-50 study">
+                                          <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                            <ol class="study__ol" type="A">
+                                                <li class="study__li">Что такое алготрейдинг</li>
+                                                <li class="study__li">Основные плюсы торговых роботов</li>
+                                                <li class="study__li">Основные минусы торговых роботов</li>
+                                                <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                                
+                                            </ol>
+                                            <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                      </div>
+                                      <div class="col-50">
+                                        <div class="homework">
+                                            <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                            <ol class="homework__ol" type="A">
+                                                <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                            </ol>
+                                        </div>
+                                        <div class="gift">
+                                            <h3 class="title gift__title">Бонус</h3>
+                                            <div class="giftwithtxt">
+                                                <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                                <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="lessons__buttons">
+                                    <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                    <button class="button lessons__button button__primary">Начать обучение</button>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 2</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                        
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 1</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 3</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 4</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 5</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 6</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 7</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 8</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 9</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2 class="title lessons__title span--bold">Урок 10</h2>
+                                <div class="row">
+                                    <div class="col-50 study">
+                                        <h3 class="title study__title span--bold">Что вы узнали на уроке?</h3>
+                                          <ol class="study__ol" type="A">
+                                              <li class="study__li">Что такое алготрейдинг</li>
+                                              <li class="study__li">Основные плюсы торговых роботов</li>
+                                              <li class="study__li">Основные минусы торговых роботов</li>
+                                              <li class="study__li">Сформируйте общее понимание направления и курса в целом</li>
+                                              
+                                          </ol>
+                                          <p class="txt study__txt">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</p>
+                                    </div>
+                                    <div class="col-50">
+                                      <div class="homework">
+                                          <h3 class="title homework__title span--bold">Домашнее задание</h3>
+                                          <ol class="homework__ol" type="A">
+                                              <li class="homework__li">Вы сможете дать четкое описание алгоритмической торговле, а также понимать и использовать все плюсы и минусы торговых роботов</li>
+                                          </ol>
+                                      </div>
+                                      <div class="gift">
+                                          <h3 class="title gift__title">Бонус</h3>
+                                          <div class="giftwithtxt">
+                                              <img src="img/webp/gift.webp" alt="" class="img gift__img">
+                                              <p class="txt gift__txt">В качестве бонуса мы предоставляемвам 10-ку лучших БЕСПЛАТНЫХ форекс роботов</p>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="lessons__buttons">
+                                  <button class="button lessons__button__sec button__secondary">узнать подробнее</button>
+                                  <button class="button lessons__button button__primary">Начать обучение</button>
+                              </div>
+                            </div>
+                            </div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev swipe-first"></div>
+                            <div class="swiper-button-next swipe-second"></div>
+                        </div>
+                       </div>
+                </div>
         </section>
 
+        <section class="section advantages">
+            <div class="container">
+                <h2 class="title advantages__title">Преимущества курса</h2>
+                    <h3 class="title advantages__row-title span--bold">Интенсив</h3>
+                <div class="row advantages__row">
+                    <div class="col-inside">
+                        <div class="col-30 advantages__row-col">
+                            <img src="img/webp/advantages/star.webp" alt="star" class="img advantages__row-col-img">
+                            <h4 class="title span--bold advantages__row-col-title">Профессионалы</h4>
+                            <p class="txt advantages__row-col-txt">Преподавать курс для Вас будут только опытные трейдеры-практики</p>
+                        </div>
+                        <div class="col-30 advantages__row-col">
+                            <img src="img/webp/advantages/layers.webp" alt="star" class="img advantages__row-col-img">
+                            <h4 class="title span--bold advantages__row-col-title">Последовательность</h4>
+                            <p class="txt advantages__row-col-txt"> Все действия шаг за шагом и до результата вместе с профессионалами своего дела</p>
+                        </div>
+                        <div class="col-30 advantages__row-col">
+                            <img src="img/webp/advantages/lighting.webp" alt="star" class="img advantages__row-col-img">
+                            <h4 class="title span--bold advantages__row-col-title">100% практики</h4>
+                            <p class="txt advantages__row-col-txt">Так много практики у  Вас ещё не было. И всё это под руководством профессионалов</p>
+                        </div>
+                    </div>
+                </div>
+                    <h3 class="title advantages__row-title span--bold">Результат</h3>
+                <div class="row advantages__row">
+                    
+                    <div class="col-inside">
+                        <div class="col-30 advantages__row-col">
+                            <img src="img/webp/advantages/face.webp" alt="star" class="img advantages__row-col-img">
+                            <h4 class="title span--bold advantages__row-col-title">Авторские роботы</h4>
+                            <p class="txt advantages__row-col-txt">Получите авторских торговых роботов алготрейдинга, успешно торгующих с 2013 года</p>
+                        </div>
+                        <div class="col-30 advantages__row-col">
+                            <img src="img/webp/advantages/note.webp" alt="star" class="img advantages__row-col-img">
+                            <h4 class="title span--bold advantages__row-col-title">Банк данных</h4>
+                            <p class="txt advantages__row-col-txt"> Получите постоянный доступ к закрытой информации, которой Вы точно не найдёте ни в книгах, ни на других курсах обучения</p>
+                        </div>
+                        <div class="col-30 advantages__row-col">
+                            <img src="img/webp/advantages/diamond.webp" alt="star" class="img advantages__row-col-img diamond">
+                            <h4 class="title span--bold advantages__row-col-title">Личный робот и сертификат</h4>
+                            <p class="txt advantages__row-col-txt">Успешно сдайте все задания курса и получите сертификат о его окончании! И главное — своего прибыльного торгового робота!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section price">
+            <div class="container ">
+                <div class="price__div">
+                    <div class="rectangle"> 
+
+                    </div>
+                    <h2 class="title price__title"><span class="span--bold">Сколько</span> стоит обучение?</h2>
+                    <p class="txt price__txt">
+                        Станьте частью алготрейдинга прямо сейчас и всего за месяц прямо на сессиях создайте своего эффективного торгового робота с нуля!
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-30">
+                        <div class="price__col">
+                            <h3 class="title price__col-title span--bold">Gold</h3>
+                            <strong class="span price__col-strong">$297</strong>
+                            <p class="txt price__col-txt">Начитка лекций</p>
+                            <p class="txt price__col-txt">Практика</p>
+                            <p class="txt price__col-txt">Ответы на вопросы</p>
+                            <p class="txt price__col-txt price__col-txt-last">Тех.поддержка</p>
+                            <button class="button price__col-button button__secondary b-one">Купить</button>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="price__col">
+                            <h3 class="title price__col-title span--bold">Premium</h3>
+                            <strong class="span price__col-strong">$497</strong>
+                            <p class="txt price__col-txt">Обучение с куратором</p>
+                            <p class="txt price__col-txt ">Постоянная возможность связаться с преподователем</p>
+                            <p class="txt price__col-txt price__col-txt-last">Практика</p>
+                            <button class="button price__col-button button__secondary b-two">Купить</button>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="price__col">
+                            <h3 class="title price__col-title span--bold">VIP</h3>
+                            <strong class="span price__col-strong">$997</strong>
+                            <p class="txt price__col-txt">Полностью индивидуальное обучение!</p>
+                            <p class="txt price__col-txt">Индивидуальная программа</p>
+                            <p class="txt price__col-txt">Ответы на вопросы</p>
+                            <p class="txt price__col-txt price__col-txt-last">Максимум практики</p>
+                            <button class="button price__col-button button__secondary b-three">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section free-lessons">
             <div class="free-lessons_color-box">
                 <div class="container free-lessons__container">
                     <h3 class="title free-lessons__headlight">Получите первые видеоуроки совершенно бесплатно уже сейчас!</h3>
                     <p class="txt free-lessons__description">Просто внесите Ваши данные в форму прям сейчас,<br> и мы сразу Вам вышлем подборку первых видеоуроков. Убедитесь сами!</p>
-                    <div class="free-lessons__form__container">
-                        <input type="text" class="free-lessons__input free-lessons__input__name txt" name="free-lessons__input__name" id="free-lessons__input__name" placeholder="Имя">
-                        <input type="tel" class="free-lessons__input free-lessons__input__tel txt" name="free-lessons__input__tel" id="free-lessons__input__tel" placeholder="Телефон">
-                        <input type="email" class="free-lessons__input free-lessons__input__email txt" name="free-lessons__input__email" id="free-lessons__input__email" placeholder="E-mail">
-                        <input type="button" class="button free-lessons__input__button button__primary" value="Свяжитесь со мной">
-                    </div>
+                    <form action="send.php" class="free-lessons__form__container">
+                        <input type="text" class="input free-lessons__input free-lessons__input__name txt" name="'userName" id="input free-lessons__input__name" placeholder="Имя">
+                        <input type="tel" class="input free-lessons__input free-lessons__input__tel txt" name="userPhone" id="input free-lessons__input__tel" placeholder="Телефон">
+                        <input type="email" class="input free-lessons__input free-lessons__input__email txt" name="userEmail" id="input free-lessons__input__email" placeholder="E-mail">
+                        <button class="button free-lessons__input__button button__primary">Начать обучение</button>
+                    </form>
                 </div>
             </div>
         </section>
+        <section class="section reviews">
+                <div class="reviews__div">
+                    <div class="rectangle"> 
 
-
+                    </div>
+                    <h2 class="title profit__title reviews__title"><span class="span--bold">Отзывы</span> наших учеников</h2>
+                </div>
+                <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="reviews__swiper">
+                                <div class="video stages__video reviews__video">
+                                    <img src="img/webp/circl.webp" alt="" class="img stages__img">
+                               </div>
+                               <h3 class="title span--bold reviews__swiper-title">Алиса</h3>
+                               <p class="txt reviews__swiper-txt">Впервые с финансовыми рынками столкнулась в 17 лет, особенно интересовали портфельные инвестиции и риск-менеджмент. Первый заработок составил 12 тысяч долларов, правда, виртуальных.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__swiper">
+                                <div class="video stages__video reviews__video">
+                                    <img src="img/webp/circl.webp" alt="" class="img stages__img">
+                               </div>
+                               <h3 class="title span--bold reviews__swiper-title">Алиса</h3>
+                               <p class="txt reviews__swiper-txt">Впервые с финансовыми рынками столкнулась в 17 лет, особенно интересовали портфельные инвестиции и риск-менеджмент. Первый заработок составил 12 тысяч долларов, правда, виртуальных.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="reviews__swiper">
+                                <div class="video stages__video reviews__video">
+                                    <img src="img/webp/circl.webp" alt="" class="img stages__img">
+                               </div>
+                               <h3 class="title span--bold reviews__swiper-title">Алиса</h3>
+                               <p class="txt reviews__swiper-txt">Впервые с финансовыми рынками столкнулась в 17 лет, особенно интересовали портфельные инвестиции и риск-менеджмент. Первый заработок составил 12 тысяч долларов, правда, виртуальных.</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div> 
+            <!-- <div class="video stages__video">
+                <img src="img/webp/circl.webp" alt="" class="img stages__img">
+           </div> -->
+        </section>
         <section class="section results">
             <div class="container">
                 <div class="results__row ">
@@ -367,8 +1002,6 @@
                 </div>
             </div>
         </section>
-
-
         <section class="section cashback">
             <div class="container">
                 <div class="cashback__info">
@@ -377,28 +1010,76 @@
                 </div>
             </div>
         </section>
+        <section class="section price">
+            <div class="container ">
+                <div class="price__div">
+                    <div class="rectangle"> 
+
+                    </div>
+                    <h2 class="title price__title"><span class="span--bold">Сколько</span> стоит обучение?</h2>
+                    <p class="txt price__txt">
+                        Станьте частью алготрейдинга прямо сейчас и всего за месяц прямо на сессиях создайте своего эффективного торгового робота с нуля!
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-30">
+                        <div class="price__col">
+                            <h3 class="title price__col-title span--bold">Gold</h3>
+                            <strong class="span price__col-strong">$297</strong>
+                            <p class="txt price__col-txt">Начитка лекций</p>
+                            <p class="txt price__col-txt">Практика</p>
+                            <p class="txt price__col-txt">Ответы на вопросы</p>
+                            <p class="txt price__col-txt price__col-txt-last">Тех.поддержка</p>
+                            <button class="button price__col-button button__secondary b-one">Купить</button>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="price__col">
+                            <h3 class="title price__col-title span--bold">Premium</h3>
+                            <strong class="span price__col-strong">$497</strong>
+                            <p class="txt price__col-txt">Обучение с куратором</p>
+                            <p class="txt price__col-txt ">Постоянная возможность связаться с преподователем</p>
+                            <p class="txt price__col-txt price__col-txt-last">Практика</p>
+                            <button class="button price__col-button button__secondary b-two">Купить</button>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="price__col">
+                            <h3 class="title price__col-title span--bold">VIP</h3>
+                            <strong class="span price__col-strong">$997</strong>
+                            <p class="txt price__col-txt">Полностью индивидуальное обучение!</p>
+                            <p class="txt price__col-txt">Индивидуальная программа</p>
+                            <p class="txt price__col-txt">Ответы на вопросы</p>
+                            <p class="txt price__col-txt price__col-txt-last">Максимум практики</p>
+                            <button class="button price__col-button button__secondary b-three">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section questions">
             <div class="container">
                 <h2 class="title questions__headlight">Остались вопросы?</h2>
                 <p class="txt questions__description">Оставьте свои контактные данные и мы с Вами свяжемся
                     в самое ближайшее время</p>
-                <div class="questions__form__container">
-                    <input type="text" class="questions__input questions__input__name txt" name="questions__input__name" id="questions__input__name" placeholder="Имя">
-                    <input type="tel" class="questions__input questions__input__tel txt" name="questions__input__tel" id="questions__input__tel" placeholder="Телефон">
-                    <input type="email" class="questions__input questions__input__email txt" name="questions__input__email" id="questions__input__email" placeholder="E-mail">
-                    <input type="button" class="button questions__input__button button__primary" value="Свяжитесь со мной">
-                </div>
+                <form action="send.php" class="questions__form__container">
+                    <input type="text" class="input questions__input questions__input__name txt" name="userName" id="questions__input__name" placeholder="Имя">
+                    <input type="tel" class="input questions__input questions__input__tel txt" name="userPhone" id="questions__input__tel" placeholder="Телефон">
+                    <input type="email" class="input questions__input questions__input__email txt" name="userEmail" id="questions__input__email" placeholder="E-mail">
+                    <button class="button questions__input__button button__primary">Свяжитесь со мной</button>
+                    
+                </form>
             </div>
         </section>
     </main>
-    
+
     <footer class="footer">
         <div class="container">
 
         
             <div class="footer__row">
                 <h2 class="footer__headlight title">Алготрейдинг</h2>
-                <input type="email" class="footer__input__email txt" name="footer__input__email" id="footer__input__email" placeholder="E-mail рассылка">
+                <input type="email" class="footer__input__email txt" name="footer__input__email" id="userEmail" placeholder="E-mail рассылка">
             </div>
             <div class="footer__row">
                 <div class="footer__column"><p class="txt footer__description">Обучение алгоритмической торговле</p></div>
@@ -421,11 +1102,12 @@
             </div>
         </div>
     </footer>
-
-
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
     <script src="js/main.js"></script>
     
 </body>
